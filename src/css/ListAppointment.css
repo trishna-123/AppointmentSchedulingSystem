@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --lpurple: #8088fb;
+    --darkpurple: #3948e4;
+    --ligreen: #76b4fa;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: 5 rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shawdow: .4rem .4 rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--purple);
+}
+
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: var(--darkpurple);
+    font-size: 3rem;
+    font-weight: 1rem;    
+}
+
+.header{
+    font-size: 17px;
+    color: #8088fb;
+}
+td{
+    color: var(--black);
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.button{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    border-color: none;   
+    text-decoration: none; 
+
+}
+.success{
+    border: none;
+    color: white;
+    background-color: rgb(247, 123, 57);
+    font-size: 15px;
+    margin:  0 15px;
+    padding: 5px 10px;  
+    text-decoration: none; 
+}
+
+.danger{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 57, 57);
+    font-size: 15px;
+    margin: 0 5px;
+    padding: 5px 10px;   
+}
+
+.success a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;    
+
+}
+
+.success:hover{
+    background-color: rgb(251, 89, 2);
+}
+
+.danger:hover{
+    background-color: rgb(245, 32, 32);
+}

@@ -1,0 +1,30 @@
+.appointmentadd{
+    position:absolute;
+    background-color: darkslategray;
+    width: 300px;
+    border: 2px solid indigo;
+    box-shadow: 10px 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 500px;
+    left : 25%;
+    top: 15%;
+}
+
+.appointment-text{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20%;
+}
+
+marquee{
+    font: large;
+    font-size: 40px;
+    color: lemonchiffon;
+    position: relative;
+    top:20%;
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --lpurple: #8088fb;
+    --darkpurple: #3948e4;
+    --ligreen: #76b4fa;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: 5 rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shawdow: .4rem .4 rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--purple);
+}
+
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    top: 40px;
+    text-align: center;
+    position: relative;
+    color: darkblue;
+}
+
+h4 {
+    top: 50px;
+    text-align: center;
+    color: darkcyan;
+    position: relative;
+}
+
+h3 {
+    position: relative;
+    top: 70px;
+    color: darkblue;
+}
+
+.card {
+    border-color: dodgerblue;
+    position: relative;
+    top: 40%;
+    display: flex;
+    border-radius: 5%;
+    
+}
+
+.card-img-top {
+    width: 95%;
+    height: 10rem;
+    top: 2px;
+    left: 7px;
+    position: relative;
+    object-fit: center;
+}
+
+.card-title {
+    position: relative;
+    /* top: 15px; */
+    font-family: serif;
+    text-align: center;
+    /* margin-bottom: 12rem; */
+    margin-top: -1rem;
+}
+
+.card-body {
+    position: relative;
+    text-align: center;
+    font-size: small;
+}
+
+.button {
+    background-color: cornsilk;
+    border: 2px solid darkgreen;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+/*  .button1{
+    position: absolute;
+    left: 30px;
+  }
+  .button2{
+    position: absolute;
+    right: 30px;
+  } */
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    justify-content: center;
+    height: 15rem;
+    width: 250px;
+    margin-right: 15px;
+    min-zoom: none;
+    margin-bottom: 2rem;
+}
+.img2{
+    margin-top: 10rem;
+
+}
+
+.newsection{
+    margin-top: 10rem;
+}
+
+h6{
+    font-size: 25px;
+    font-style: normal;
+}
+
+.history{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.top-doctors{
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+
+}

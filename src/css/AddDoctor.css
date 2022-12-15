@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --lpurple: #8088fb;
+    --darkpurple: #3948e4;
+    --ligreen: #76b4fa;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: 5 rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shawdow: .4rem .4 rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--purple);
+}
+
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: var(--darkpurple);
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.formcontainer {
+    border: 2px solid var(--darkpurple);
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+
+}
+
+.formcontainer {
+    padding: 0;
+    margin: 0;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.formgroup {
+    padding: 0;
+    margin: 0%;
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-color: var(--darkpurple);
+}
+
+.formgroup {
+    margin-right: 10%;
+    padding-right: 0%;
+}
+
+.formcontrol {
+    /* padding-right: 13rem; */
+    margin-top: .3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    align-items: center;
+    padding-right: 10%;
+    text-align: center;
+    width: 20rem;
+
+}
+
+.success {
+    border: none;
+    color: white;
+    background-color: rgb(59, 158, 59);
+    font-size: 15px;
+    margin: 5%;
+    padding: 5% 17%;
+}
+
+ .danger {
+    border: none;
+    color: white;
+    background-color: rgb(245, 57, 57);
+    font-size: 15px;
+    margin-bottom: 15%;
+    padding: 5% 17%;
+}
+
+.buttons {
+    justify-content: center;
+    /* background-color: black; */
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.success:hover {
+    background-color: rgb(50, 182, 50);
+}
+
+.danger:hover {
+    background-color: rgb(241, 43, 43);
+}
+
+
+.first {
+    margin-top: 2rem;
+}
+
+.container-fluid{
+    align-items: center;
+}

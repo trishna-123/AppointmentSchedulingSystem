@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+:root{
+    --purple: #8088fb;
+    --black: #444;
+    --light-color: #777;
+    /* --box-shadow: 5 rem 5rem 5rem rgba(0, 0, 0,1); */
+    /* --text-shawdow: .4rem .4 rem 0 rgba(0,0,0, .9); */
+    --border: .2rem solid var(--purple);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding:  0 2rem 4% 0;
+    padding-top: 0%;
+}
+
+section:nth-child(odd){
+    background: #f5f5f5;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5 rem;
+    padding-top: 0rem;
+    margin-top: 0%;
+}
+
+.image{
+    /* flex: 1 1 30rem; */
+    /* background-color: black; */
+    padding-top: 0;
+    margin-top: 0%;
+    align-items: center;
+    vertical-align: middle;
+    
+    margin: 0;
+}
+
+.home img{
+    width: 700px;
+    height: 500px;
+    padding-top: 0%;
+    margin-top: 4rem;
+    margin-right: 20rem;
+
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    color: #3f4bd6;
+    line-height: 1.8;
+    padding-left: 30px;
+    font-style: normal;
+    margin-bottom: 3rem;
+    /* text-shadow: var(--text-shawdow); */
+}
+
+.home .content h6{
+    font-size: 20px;
+    color: #76b4fa;
+    line-height: 1.8;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: none;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: .5rem;
+    border: .2rem solid #7a82f8;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-left: 1.7rem;
+    display: inline-block;
+    cursor: pointer;
+    color: #515dff;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #79befb;
+}
+
+
+.icons-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icons{
+    border: .2rem solid #7a82f8;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(0, 0, 0);
+    width: 20rem;
+    height: 15rem;
+    /* box-shadow: var(--box-shadow); */
+}
+
+.icons-container .icons i{
+    font-size: 4rem;
+    color: #3f4bd6;
+    padding-bottom: .7rem;
+    align-items: center;
+    
+}
+
+.icons-container .icons h3{
+    font-size: 2rem;
+    color: #76b4fa;
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+
+.icons-container .icons p{
+    font-size: 1rem;
+    color: #0015ff;
+    padding-bottom: .5rem;
+    margin-top: -4rem;
+    /* margin-right: 1rem; */
+    margin-left: -1rem;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --lpurple: #8088fb;
+    --darkpurple: #3948e4;
+    --ligreen: #76b4fa;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: 5 rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shawdow: .4rem .4 rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--purple);
+}
+
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    color: #444;    
+    margin-bottom: .3rem;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+p{
+    margin-left: 4rem;
+}
+
+a {
+    color: #3948e4;
+    font-size: 20px;
+}
+.card{
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 2% 2%;
+    margin-top: 4rem;
+    
+}
+.main-heading{
+    margin-bottom: 5rem;
+}
